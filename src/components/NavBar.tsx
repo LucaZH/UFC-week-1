@@ -21,14 +21,16 @@ function NavBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <div className="flex justify-between">
-      <img src="/vite.svg" alt="Logo" className="w-8 h-8" />
-      <div className="relative hidden items-center sm:flex gap-10">
+    <nav className="flex">
+      <div className="basis-1/4">
+        <img src="/vite.svg" alt="Logo" className="w-8 h-8 basis-1/4" />
+      </div>
+      <div className="relative hidden items-center basis-1/2 justify-center sm:flex gap-8 ">
         {navItems.map((item, index) => (
           <div key={index} className="relative">
             <a
               href={item.link}
-              className="text-white"
+              className="text-white font-medium hover:text-slate-300"
               onClick={() =>
                 item.dropdownItems && setIsDropdownOpen(!isDropdownOpen)
               }
@@ -51,7 +53,7 @@ function NavBar() {
           </div>
         ))}
       </div>
-      <div className="relative hidden sm:flex gap-2">
+      <div className="relative hidden sm:flex gap-2 basis-1/4 justify-end">
         <Btn text="Login" active={false} />
         <Btn text="Register" active={true} />
       </div>
@@ -68,7 +70,7 @@ function NavBar() {
           ></path>
         </svg>
       </button>
-    </div>
+    </nav>
   );
 }
 
