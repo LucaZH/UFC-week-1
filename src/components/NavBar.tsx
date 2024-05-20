@@ -21,7 +21,7 @@ function NavBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="flex">
+    <nav className="flex justify-between">
       <div className="basis-1/4">
         <img src="/vite.svg" alt="Logo" className="w-8 h-8 basis-1/4" />
       </div>
@@ -59,7 +59,7 @@ function NavBar() {
       </div>
       <button
         type="button"
-        className="-my-1 -mr-1 ml-6 flex h-8 w-8 items-center justify-center lg:hidden"
+        className="-my-1 -mr-1 ml-6 flex h-8 w-8 justify-end lg:hidden"
       >
         <svg viewBox="0 0 24 24" className="h-6 w-6 stroke-slate-900">
           <path
