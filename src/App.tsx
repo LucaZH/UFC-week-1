@@ -1,7 +1,10 @@
 import Branding from "./components/Branding";
+import Caract from "./components/Caract";
+import Empowering from "./components/Empowering";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -11,8 +14,11 @@ function App() {
         <Hero />
       </div>
       <Branding />
-      <div className="p-20 pt-10 md:p-20 md:pt-10">
+      <div className="flex flex-col p-10 gap-16 md:p-20 md:pt-10">
         <Features />
+        <Empowering />
+        <Caract />
+        <Product />
       </div>
     </>
   );
