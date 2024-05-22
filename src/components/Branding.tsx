@@ -1,6 +1,6 @@
 function Branding() {
   return (
-    <section className="flex border-t-2 border-b-2 border-t-gray-300 border-b-gray-300 h-36 items-center gap-32 justify-center bg-gradient-to-b from-pink-200 to-white">
+    <section className="flex border-t-2 border-b-2 border-t-gray-300 border-b-gray-300 h-36 items-center gap-32 justify-center">
       <svg
         viewBox="-0.2 0 1280.2 226.99999999999997"
         className="w-1/12 hover:scale-150 transition-all duration-700 delay-100"

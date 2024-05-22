@@ -4,13 +4,15 @@ import HText from "./ui/HText";
 function Empowering() {
   return (
     <div className="md:flex gap-20 lg:flex">
-      <div className="w-auto">
+      <div className="w-3/4">
+        <p className="absolute bg-fuchsia-500 blur-2xl w-20 h-30 animate-pulse delay-100 transition-all">
+          |
+        </p>
         <HText text="Empowering innovaion, one drone at time" />
         <p className="text-justify text-gray-500 text-lg mt-6 mb-6">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-          obcaecati a amet. Tempora ratione perspiciatis tempore laudantium sit,
-          dolorem sapiente. Quisquam alias aspernatur inventore aperiam. Laborum
-          maiores ad iste cumque."
+          "Empowering innovation, one drone at time" means that tougth our
+          drones, we strive to the driver progress and creativity in various
+          industries and applications.
         </p>
         <a href="#" className="text-fuchsia-600 underline mb-20">
           Learn more
