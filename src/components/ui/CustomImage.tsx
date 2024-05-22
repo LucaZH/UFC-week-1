@@ -10,7 +10,7 @@ function CustomImage({ imgurl, doted }: { imgurl: string; doted: boolean }) {
         <img
           src={imgurl}
           alt="empowering header"
-          className="rounded-2xl w-screen h-80 "
+          className="rounded-2xl w-screen h-80 object-cover"
         />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
