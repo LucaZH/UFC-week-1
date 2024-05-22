@@ -12,26 +12,26 @@ function Features() {
       <div className="mt-16 md:flex md:justify-center gap-20">
         <div className="flex flex-col items-center text-center">
           <img src="/vite.svg" alt="" className="mb-10 w-1/3 h-1/3" />
-          <h4 className="text-black font-semibold text-xl">Propellers</h4>
+          <h4 className="text-zinc-700 font-semibold text-xl">Propellers</h4>
           <p className="text-gray-500 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-            blanditiis amet similique adipisci pariatur
+            Generate thust to lift the drone off the ground and control its
+            movement in different directions.
           </p>
         </div>
         <div className="flex flex-col items-center text-center">
           <img src="/vite.svg" alt="" className="mb-10 w-1/3 h-1/3" />
-          <h4 className="text-black font-semibold text-xl">GPS</h4>
+          <h4 className="text-zinc-700 font-semibold text-xl">GPS</h4>
           <p className="text-gray-500 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-            blanditiis amet similique adipisci pariatur
+            GPS allows the drone to folow preprogrammed fight pahts or waypoints
+            autonomously
           </p>
         </div>
         <div className="flex flex-col items-center text-center">
           <img src="/vite.svg" alt="" className="mb-10 w-1/3 h-1/3" />
-          <h4 className="text-black font-semibold text-xl">Gyroscope</h4>
+          <h4 className="text-zinc-700 font-semibold text-xl">Gyroscope</h4>
           <p className="text-gray-500 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-            blanditiis amet similique adipisci pariatur
+            The syroscope mesures the drone's angular rate or rotational
+            movement around its axes.
           </p>
         </div>
       </div>

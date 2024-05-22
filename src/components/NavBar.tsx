@@ -30,7 +30,7 @@ function NavBar() {
           <div key={index} className="relative">
             <a
               href={item.link}
-              className="text-white font-medium hover:text-slate-300"
+              className="text-white font-semibold hover:text-neutral-400"
               onClick={() =>
                 item.dropdownItems && setIsDropdownOpen(!isDropdownOpen)
               }
@@ -54,7 +54,7 @@ function NavBar() {
               )}
             </a>
             {isDropdownOpen && item.dropdownItems && (
-              <div className="absolute top-full bg-white text-black p-2 rounded-lg w-20">
+              <div className="absolute top-full bg-white text-zinc-700 p-2 rounded-lg w-20">
                 {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
                   <a
                     key={dropdownIndex}
@@ -69,13 +69,13 @@ function NavBar() {
           </div>
         ))}
       </div>
-      <div className="relative hidden sm:flex gap-2 basis-1/4 justify-end">
+      <div className="relative hidden sm:flex gap-2 basis-1/4 justify-end ">
         <Btn text="Login" active={false} />
         <Btn text="Register" active={true} />
       </div>
       <button
         type="button"
-        className="-my-1 -mr-1 ml-6 flex h-8 w-8 justify-end lg:hidden"
+        className="-my-1 -mr-1 ml-6 flex h-8 w-8 justify-end lg:hidden md:hidden"
       >
         <svg viewBox="0 0 24 24" className="h-6 w-6 stroke-slate-900">
           <path

@@ -14,12 +14,12 @@ function Card({
       <img
         src={imgUrl}
         alt="Card img"
-        className={border + " h-[30rem] w-full object-cover mb-6"}
+        className={border + " h-[28rem] w-full object-cover mb-6"}
       />
       <div className="flex items-center justify-between">
         <div>
           <h3 className="text-2xl">{title}</h3>
-          <p className="text-gray-300">{desc}</p>
+          <p className="text-gray-500 text-lg">{desc}</p>
         </div>
         <a href="#">
           <svg
