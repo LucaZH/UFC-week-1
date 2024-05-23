@@ -4,7 +4,7 @@ import HText from "./ui/HText";
 function Empowering() {
   return (
     <div className="md:flex gap-20 lg:flex">
-      <div className="w-3/4">
+      <div className="">
         <p className="absolute bg-fuchsia-500 blur-2xl w-20 h-30 animate-pulse delay-100 transition-all">
           |
         </p>
@@ -18,7 +18,9 @@ function Empowering() {
           Learn more
         </a>
       </div>
-      <CustomImage imgurl="/img/0218232_header_900.png" doted={true} />
+      <div className="w-10/12">
+        <CustomImage imgurl="/img/0218232_header_900.png" doted={true} />
+      </div>
     </div>
   );
 }
