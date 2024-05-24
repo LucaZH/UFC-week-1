@@ -2,7 +2,7 @@ function TestmonialCad() {
   return (
     <div className="flex bg-pink-50 p-6 rounded-xl gap-10 w-7/12">
       <img
-        src="/public/img/capadrone.webp"
+        src="/img/capadrone.webp"
         alt="Tesmonial image"
         className="w-72 h-auto rounded-xl object-cover"
       />
