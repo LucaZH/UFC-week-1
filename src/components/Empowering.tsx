@@ -18,7 +18,7 @@ function Empowering() {
           Learn more
         </a>
       </div>
-      <div className="w-10/12">
+      <div className="w-full md:w-10/12 lg:w-10/12">
         <CustomImage imgurl="/img/0218232_header_900.png" doted={true} />
       </div>
     </div>

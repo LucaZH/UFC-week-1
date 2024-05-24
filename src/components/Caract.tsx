@@ -28,7 +28,7 @@ function Caract() {
 
   return (
     <div className="md:flex gap-24 mt-20">
-      <div className="flex flex-col w-3/4 gap-5">
+      <div className="flex flex-col w-full md:w-3/4 lg:w-3/4 gap-5">
         <HText text="These Are Often Considered For Prone Product Quality " />
         <p className="text-gray-500 text-lg">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
