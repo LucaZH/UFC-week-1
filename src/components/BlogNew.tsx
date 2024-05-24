@@ -10,7 +10,7 @@ const News: NewItem[] = [
     title: "Drone 5",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi odio iste ad obcaecati provident sed esse, asperiores sit dolorum perspiciatis hic doloremque est deleniti modi maxime, ab, eos ullam",
     url: "#",
-    imgUrl: "/public/img/capadrone.webp",
+    imgUrl: "/img/capadrone.webp",
   },
   {
     author: "Admin",
@@ -19,7 +19,7 @@ const News: NewItem[] = [
     title: "Drone 5",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi odio iste ad obcaecati provident sed esse, asperiores sit dolorum perspiciatis hic doloremque est deleniti modi maxime, ab, eos ullam",
     url: "#",
-    imgUrl: "/public/img/capadrone.webp",
+    imgUrl: "/img/capadrone.webp",
   },
 ];
 function BlogNew() {
