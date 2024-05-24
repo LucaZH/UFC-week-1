@@ -6,12 +6,14 @@ function RenderFeature({
   description: string;
 }) {
   return (
-    <div className="relative p-4 border-t border-r border-b border-gray-200 rounded-r-3xl">
-      <div className="pl-6 space-y-2">
-        <li className="text-5xl font-semibold text-fuchsia-600">
-          <h3 className="text-2xl text-zinc-700">{title}</h3>
-        </li>
-        <p className="text-gray-600">{description}</p>
+    <div className="relative p-[1px] rounded-r-3xl bg-gradient-to-r from-white to-gray-100">
+      <div className="rounded-r-3xl bg-white p-5">
+        <div className="pl-6 space-y-2">
+          <h3 className="text-2xl font-semibold text-zinc-700 before-dot">
+            {title}
+          </h3>
+          <p className="text-gray-600 ml-8">{description}</p>
+        </div>
       </div>
     </div>
   );
