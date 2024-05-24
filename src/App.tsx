@@ -3,6 +3,7 @@ import Branding from "./components/Branding";
 import Caract from "./components/Caract";
 import Empowering from "./components/Empowering";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Product from "./components/Product";
@@ -24,6 +25,7 @@ function App() {
         <Testmonial />
         <BlogNew />
       </div>
+      <Footer />
     </>
   );
 }
