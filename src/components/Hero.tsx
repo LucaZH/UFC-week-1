@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="md:flex h-full mt-20 mb-10">
       <div className="flex flex-col content-center gap-8">
-        <h1 className="text-white text-4xl font-extrabold w-4/5 md:text-7xl">
+        <h1 className="text-white text-4xl font-black w-4/5 md:text-7xl">
           The Best View In The World From Your Site
         </h1>
         <p className="text-white w-4/5">
