@@ -9,8 +9,8 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-fuchsia-950 text-white py-8">
-      <div className="container mx-auto px-4">
+    <footer className="bg-[#351e39] text-white py-8 px-20">
+      <div className="container mx-auto">
         <div className="flex justify-between items-center mb-8">
           <div>
             <img
@@ -38,16 +38,28 @@ function Footer() {
           </div>
         </div>
         <div className="mb-8">
-          <div className="border-t-2 border-b-2 border-gray-400">
-            <div className="grid grid-cols-6 gap-8 border-b-2 border-gray-400 pt-6 pb-6 text-xl">
+          <div className="border-t-2 border-b-2 border-gray-600">
+            <div className="md:grid grid-cols-6 gap-8 border-b-2 border-gray-600 pt-6 pb-6 text-xl">
               <h4 className="font-medium">Useful Link</h4>
               <h4 className="font-medium">Service</h4>
               <h4 className="font-medium col-span-2">Contact Us</h4>
               <div className="col-span-2">
-                <h4 className="font-medium">^</h4>
+                <svg
+                  className="w-8 h-8 border rounded-full border-gray-600 p-1 cursor-pointer hover:bg-gray-600 hover:text-white"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 9.5L12 14.5L7 9.5"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
             </div>
-            <div className="grid grid-cols-6 gap-8 pt-6 pb-6">
+            <div className="md:grid grid-cols-6 gap-8 pt-6 pb-6">
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="text-white">
@@ -103,13 +115,13 @@ function Footer() {
                 </li>
               </ul>
               <div className=" col-span-2 space-y-3">
-                <div className="bg-gradient-to-r from-gray-700 to-gray-400 rounded-2xl p-[1px]">
-                  <p className="text-white p-4 bg-fuchsia-950 rounded-2xl">
+                <div className="bg-gradient-to-r from-gray-800 to-gray-400 rounded-2xl p-[1px]">
+                  <p className="text-white p-4 bg-[#351e39] rounded-2xl">
                     Jamma Masjid Galli Ward No2
                   </p>
                 </div>
-                <div className="bg-gradient-to-r from-gray-700 to-gray-400 rounded-2xl p-[1px]">
-                  <p className="text-white p-4 bg-fuchsia-950 rounded-2xl">
+                <div className="bg-gradient-to-r from-gray-800 to-gray-400 rounded-2xl p-[1px]">
+                  <p className="text-white p-4 bg-[#351e39] rounded-2xl">
                     +923013781848 <br /> Profilebilal1@Gmail.com
                   </p>
                 </div>
