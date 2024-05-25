@@ -22,7 +22,9 @@ function App() {
         <Empowering />
         <Caract />
         <Product />
-        <Testmonial />
+      </div>
+      <Testmonial />
+      <div className="flex flex-col p-10 gap-16 md:p-20 md:pt-10">
         <BlogNew />
       </div>
       <Footer />
