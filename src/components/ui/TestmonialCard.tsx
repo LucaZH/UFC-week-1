@@ -1,19 +1,27 @@
-function TestmonialCad() {
+import TestmonialItem from "../../types/TestmonialItem";
+
+function TestmonialCad({
+  active,
+  imgUrl,
+  testmonial,
+  author,
+  job,
+}: TestmonialItem) {
   return (
-    <div className="flex bg-pink-50 p-6 rounded-xl gap-10 w-7/12">
+    <div
+      className={`min-w-[86%] bg-pink-50 p-6 rounded-xl md:flex gap-10 md:min-w-[50%] lg:min-w-[50%] ${
+        active ? "opacity-100 " : "opacity-30"
+      }`}
+    >
       <img
-        src="/img/capadrone.webp"
+        src={imgUrl}
         alt="Tesmonial image"
-        className="w-72 h-auto rounded-xl object-cover"
+        className="w-96 mb-8 h-80 rounded-xl object-cover md:w-60 md:mb-0"
       />
       <div className="flex flex-col justify-center">
-        <p className="text-xl font-extralight mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          laboriosam nesciunt officiis labore, sequi natus qui excepturi vitae
-          porro nam corrupti odio.
-        </p>
-        <h3 className="text-lg font-semibold">Mohamed</h3>
-        <span className="text-gray-400">UX/Design</span>
+        <p className="text-xl font-extralight mb-4">{testmonial}</p>
+        <h3 className="text-lg font-semibold">{author}</h3>
+        <span className="text-gray-400">{job}</span>
       </div>
     </div>
   );
