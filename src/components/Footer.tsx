@@ -12,12 +12,9 @@ function Footer() {
     <footer className="bg-[#351e39] text-white py-8 px-20">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <div>
-            <img
-              src="/public/img/Phantom 4 pro.webp"
-              alt="Logo"
-              className="w-16 mb-4"
-            />
+          <div className="basis-1/4">
+            <img src="/logo.png" alt="Logo" className="w-8 h-8 basis-1/4" />
+            <p className="text-white font-black -ml-2">DRONE</p>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-white">
@@ -128,7 +125,7 @@ function Footer() {
               </div>
               <div className="relative w-full mt-4 col-span-2">
                 <img
-                  src="/public/img/capadrone.webp"
+                  src="/img/capadrone.webp"
                   alt="Drone"
                   className="w-full h-56 object-cover rounded-3xl"
                 />
