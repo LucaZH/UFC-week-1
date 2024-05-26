@@ -6,8 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drone</title>
   </head>
+  <style>
+  #preloader-container.hidden {
+    visibility: hidden;
+  }
+
+  #preloader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: fixed;
+    inset: 0;
+    background-color: white;
+    place-content: center;
+    z-index: 999;
+  }
+
+  .preloader {
+    width: 500px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    background: url('/loader.gif') no-repeat center center;
+  }
+
+  #root.visible {
+    opacity: 1;
+    background-color: transparent;
+  }
+
+  #root {
+    opacity: 0;
+    transform: translate3d(0, -4rem, 0);
+    background-color: white;
+    transition-property: opacity, transform;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+</style>
   <body>
+    <div id='preloader-container'>
+      <div class="preloader"></div>
+      <div class="preloader"></div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+  <script>
+    const loader = document.querySelector('#preloader-container')
+    const root = document.querySelector('#root')
+    window.addEventListener('load', (e) => {
+      loader.classList.add('hidden')
+      root.classList.add('visible')
+    })
+  </script>
 </html>
