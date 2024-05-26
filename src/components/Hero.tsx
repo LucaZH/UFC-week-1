@@ -22,7 +22,7 @@ function Hero() {
       <img
         src="/img/Phantom 4 pro.webp"
         alt="Phantom 4 pro"
-        className="w-auto h-96 scale-125 mt-5 md:mt-0 lg:mt-0"
+        className="p-10 md:w-auto md:h-96 scale-125 mt-5 md:mt-0 lg:mt-0"
       />
     </section>
   );
