@@ -1,7 +1,9 @@
+import { useState } from "react";
 import TestmonialItem from "../types/TestmonialItem";
 import HText from "./ui/HText";
 import TestmonialCad from "./ui/TestmonialCard";
-const TestmonialItems: TestmonialItem[] = [
+
+const initialTestmonialItems: TestmonialItem[] = [
   {
     active: false,
     author: "Luca",
@@ -28,14 +30,26 @@ const TestmonialItems: TestmonialItem[] = [
   },
 ];
 function Testmonial() {
+  const [TestmonialItems, setTestmonialItems] = useState(
+    initialTestmonialItems
+  );
+
+  const handleCardClick = (index: number) => {
+    const newTestmonialItems = TestmonialItems.map((item, i) => ({
+      ...item,
+      active: i === index,
+    }));
+
+    setTestmonialItems(newTestmonialItems);
+  };
   return (
     <section className="flex flex-col gap-14 mb-10">
       <div className="flex flex-col text-center">
         <HText text="Testmonial" />
         <p className="text-gray-400">What people say</p>
       </div>
-      <div className="flex w-full overflow-hidden gap-8 overflow-x-scroll ">
-        {TestmonialItems.map((item, index) => (
+      <div className="flex w-full overflow-hidden gap-8 overflow-x-scroll no-scrollbar">
+        {TestmonialItems.map((item: TestmonialItem, index: number) => (
           <TestmonialCad
             key={index}
             active={item.active}
@@ -43,6 +57,7 @@ function Testmonial() {
             imgUrl={item.imgUrl}
             job={item.job}
             testmonial={item.testmonial}
+            onClick={() => handleCardClick(index)}
           />
         ))}
       </div>
