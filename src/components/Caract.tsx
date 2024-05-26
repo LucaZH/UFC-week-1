@@ -1,6 +1,6 @@
 import CustomImage from "./ui/CustomImage";
 import HText from "./ui/HText";
-import RenderFeature from "./ui/RenderFreature";
+import RenderFeature from "./ui/RenderFeature";
 
 function Caract() {
   const features = [
