@@ -23,7 +23,8 @@ function NavBar() {
   return (
     <nav className="flex justify-between">
       <div className="basis-1/4">
-        <img src="/vite.svg" alt="Logo" className="w-8 h-8 basis-1/4" />
+        <img src="/logo.png" alt="Logo" className="w-8 h-8 basis-1/4" />
+        <p className="text-white font-black -ml-2">DRONE</p>
       </div>
       <div className="relative hidden items-center basis-1/2 justify-center sm:flex gap-8 ">
         {navItems.map((item, index) => (
