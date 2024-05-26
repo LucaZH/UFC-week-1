@@ -11,7 +11,7 @@ function Features() {
       </div>
       <div className="mt-16 md:flex md:justify-center gap-20">
         <div className="flex flex-col items-center text-center">
-          <img src="/vite.svg" alt="" className="mb-10 w-1/3 h-1/3" />
+          <img src="/logo.png" alt="" className="mb-10 w-1/4 h-1/3" />
           <h4 className="text-zinc-700 font-semibold text-xl">Propellers</h4>
           <p className="text-gray-500 text-base">
             Generate thust to lift the drone off the ground and control its
@@ -19,7 +19,11 @@ function Features() {
           </p>
         </div>
         <div className="flex flex-col items-center text-center">
-          <img src="/vite.svg" alt="" className="mb-10 w-1/3 h-1/3" />
+          <img
+            src="/img/3d-map-pointer-location-map-icon-white-texture-white-location-pin-navigation-web-location-poi_651618-814.avif"
+            alt=""
+            className="mb-10 w-1/4 h-1/3"
+          />
           <h4 className="text-zinc-700 font-semibold text-xl">GPS</h4>
           <p className="text-gray-500 text-base">
             GPS allows the drone to folow preprogrammed fight pahts or waypoints
@@ -27,7 +31,7 @@ function Features() {
           </p>
         </div>
         <div className="flex flex-col items-center text-center">
-          <img src="/vite.svg" alt="" className="mb-10 w-1/3 h-1/3" />
+          <img src="/logo.png" alt="" className="mb-10 w-1/4 h-1/3" />
           <h4 className="text-zinc-700 font-semibold text-xl">Gyroscope</h4>
           <p className="text-gray-500 text-base">
             The syroscope mesures the drone's angular rate or rotational
