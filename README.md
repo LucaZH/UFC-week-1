@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Projet d'Intégration de Maquette de Drone 🚁
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue dans ce projet d'intégration de maquette de drone. Ce projet fait partie d'un challenge hebdomadaire où nous devons intégrer une nouvelle maquette chaque semaine. Cette semaine, il s'agit d'une maquette de drone.
 
-Currently, two official plugins are available:
+## 📜 Description du Projet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet consiste en l'intégration d'une maquette de drone en utilisant React et Tailwind CSS. Le challenge a commencé le 20 mai 2024, et l'objectif est d'intégrer la maquette en une semaine.
 
-## Expanding the ESLint configuration
+### Maquette Originale
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Vous pouvez voir la maquette original sur [https://github.com/LucaZH/UFC-topics/tree/main/week1](https://github.com/LucaZH/UFC-topics/tree/main/week1)
 
-- Configure the top-level `parserOptions` property like this:
+### Démonstration
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Vous pouvez voir la version en ligne du projet ici : [ufc-w1.netlify.app](https://ufc-w1.netlify.app)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Technologies Utilisées
+
+- **React** : Bibliothèque JavaScript pour construire des interfaces utilisateur
+- **Tailwind CSS** : Framework CSS utilitaire pour un design rapide et réactif
