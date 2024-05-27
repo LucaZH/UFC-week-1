@@ -1,6 +1,6 @@
 function CustomImage({ imgurl, doted }: { imgurl: string; doted: boolean }) {
   return (
-    <div className="relative flex items-center justify-center  pt-8 rounded-2xl">
+    <div className="relative flex items-center justify-center  pt-8 rounded-2xl hover:rotate-6 delay-400 transition-all duration-500">
       <div className="absolute top-8 left-0 w-28 h-28 bg-fuchsia-700 rounded-2xl transform -translate-y-4 -translate-x-4  shadow-lg"></div>
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-fuchsia-500 rounded-2xl transform translate-y-4 translate-x-4  shadow-lg"></div>
       {doted && (
