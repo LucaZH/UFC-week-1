@@ -16,5 +16,5 @@ Vous pouvez voir la version en ligne du projet ici : [ufc-w1.netlify.app](https:
 
 ## 🚀 Technologies Utilisées
 
-- **React** : Bibliothèque JavaScript pour construire des interfaces utilisateur
-- **Tailwind CSS** : Framework CSS utilitaire pour un design rapide et réactif
+- **React**
+- **Tailwind CSS**
