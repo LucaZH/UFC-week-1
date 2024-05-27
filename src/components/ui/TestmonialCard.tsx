@@ -15,7 +15,9 @@ function TestmonialCad({
   return (
     <div
       className={`min-w-[86%] bg-pink-50 p-6 rounded-xl md:flex gap-10 md:min-w-[50%] lg:min-w-[50%] ${
-        active ? "opacity-100 " : "opacity-30"
+        active
+          ? "opacity-100 transition-all delay-100 ease-in duration-100"
+          : "opacity-30"
       }`}
       onClick={onClick}
     >
