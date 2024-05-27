@@ -10,7 +10,7 @@ function Card({
   border: string;
 }) {
   return (
-    <div className="mb-16 md:mb-0">
+    <div className="hover:scale-105 transition-all mb-16 md:mb-0">
       <img
         src={imgUrl}
         alt="Card img"
