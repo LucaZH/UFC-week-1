@@ -12,7 +12,7 @@ import Testmonial from "./components/Testmonial";
 function App() {
   return (
     <>
-      <div className="mt-16 bg-[url('/img/hero-bg.png')] bg-no-repeat bg-cover p-10 pt-5 pb-0 md:p-20 md:pt-5">
+      <div className="bg-[url('/img/hero-bg.png')] bg-no-repeat bg-cover p-10 pt-5 pb-0 md:p-20 md:pt-5">
         <NavBar />
         <Hero />
         <Branding />

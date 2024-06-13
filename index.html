@@ -11,7 +11,7 @@
     visibility: hidden;
   }
 
-  #preloader-container {
+  /* #preloader-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     background-color: white;
     place-content: center;
     z-index: 999;
-  }
+  } */
 
   .preloader {
     width: 500px;
@@ -29,7 +29,7 @@
     position: absolute;
     background: url('/loader.gif') no-repeat center center;
   }
-
+/* 
   #root.visible {
     opacity: 1;
     background-color: transparent;
@@ -42,13 +42,13 @@
     transition-property: opacity, transform;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
-  }
+  } */
 </style>
   <body>
-    <div id='preloader-container'>
-      <div class="preloader"></div>
-      <div class="preloader"></div>
-    </div>
+    <!-- <div id='preloader-container'> -->
+      <!-- <div class="preloader"></div> -->
+      <!-- <div class="preloader"></div> -->
+    <!-- </div> -->
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
